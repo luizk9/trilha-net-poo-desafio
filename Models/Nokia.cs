@@ -10,16 +10,18 @@ namespace DesafioPOO.Models
         }
 
         // etapa pronta do --> TODO: Sobrescrever o método "InstalarAplicativo"
-
+        
         public override void InstalarAplicativo(string nomeApp)
         {    
-             Console.WriteLine( $"Vamos instalar o {nomeApp}: {Numero}");
+             Console.WriteLine( $"Vamos instalar Aplicativo {nomeApp}");
              Console.WriteLine( "------===..........");
+             Console.WriteLine( $"Aparelho Nokia..: {Numero}");
              Console.WriteLine( $"---EMAI: {Imei}");
              Console.WriteLine( $"---MODELO: {Modelo}");
              Console.WriteLine( $"---EMEI: {Memoria}");
              Console.WriteLine( $"---=====.............");
         }
+   
 
     }
 }
