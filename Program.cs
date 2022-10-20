@@ -2,17 +2,15 @@
 using DesafioPOO.Models;
 
 
-// Etapa pronta do --->  TODO: Realizar os testes com as classes Nokia e Iphone
+// TODO: Realizar os testes com as classes Nokia e Iphone
 
-// inicializando a classe Nokia
-Nokia n = new Nokia("9999", "nsnns", "111", 2323);
+Nokia n = new Nokia( numero: "9999", modelo: "nokia-nsnns", imei: "111", memoria: 2323);
 
-n.InstalarAplicativo("nokia");
+n.InstalarAplicativo("Whatsapp");
 n.Ligar();
 
 
-// instanciando a class Iphone
-Iphone ip = new Iphone("2222", "Modiphone", "34Ip", 88989);
+Iphone ip = new Iphone( numero: "2222", modelo: "Modiphone", imei:  "34Ip", memoria: 88989);
 
-ip.InstalarAplicativo("Iphone");
+ip.InstalarAplicativo("Telegram");
 ip.ReceberLigacao();
